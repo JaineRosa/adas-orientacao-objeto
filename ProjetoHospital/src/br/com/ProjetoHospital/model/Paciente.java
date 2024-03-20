@@ -70,20 +70,20 @@ public class Paciente {
 	public void setIsInternado(boolean isInternado) {
 		this.isInternado = isInternado;
 	}
-	
-	
 
-	public void exibirDadosPaciente () {
+	public void exibirDadosPaciente() {
 		System.out.println("--------------------------------------------");
-		System.out.println("Codigo: "+ this.id + "Paciente: " + this.nome);
+		System.out.println("Codigo: " + this.id + " Paciente: " + this.nome);
 		System.out.println("Idade: " + this.idade + " anos.");
-		if(this.idade >= 60 ) {
+		
+		if (this.idade >= 60) {
 			System.out.println("Paciente tem direito a acompanhante!");
-		}else {
+		} else {
 			System.out.println("Paciente não tem direito a acompanhante!");
 		}
 		System.out.println("--------------------------------------------");
-		
+
 	}
-	
+
+
 }
